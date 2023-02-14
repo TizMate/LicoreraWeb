@@ -1,0 +1,186 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+/* Navbar*/
+
+
+.navi{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../imgs/backfade.jpg);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+
+}
+.logo {
+    font-size: 36px;
+    color: white;
+}
+span{
+    color: #ea1538;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+
+}
+nav ul li a:hover{
+    color: #ea1538;
+    transition: .3s;
+}
+
+
+/* Navbar*/
+
+
+/* carousel*/
+#carouselExampleControls{
+    height: 30vw;
+    width: 70%;
+    position: relative;
+    display: block !important;
+    left: 15%;
+    top: 10vh;
+    padding-top: 3%;
+    border: solid  rgb(165, 165, 165) 1px;
+    border-radius: 1rem ;
+    margin: 0%;
+ }
+div.row{
+    width: 100%;
+}
+img.d-block.w-100{
+    width: 40% !important;
+}
+div.col{
+    display: flex;
+    justify-content: center;
+    height: 100% !important;
+ 
+}
+.carousel-inner{
+   
+}
+#rowtexto{
+    display: block;
+    width: 100%;
+    height: 40%;
+}
+.texto{
+    padding-top: 2rem;
+    display: inline !important;
+    text-align: center;
+}
+  
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black !important;
+}
+/* carousel*/
+
+
+#productosdestacados {
+    position: relative;
+    top: 10vh;
+    display: grid;
+    place-items: center;
+    align-content: center;
+}
+h1 {
+    text-align: center;
+}
+
+#mostsold{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    position: relative;
+    top: 10%;
+}
+#carouselExampleControls2 {
+    height: 25vw;
+    width: 70%;
+    position: relative;
+    display: block !important;
+    top: 35vh;
+    left: 45%;
+    padding-top: 3%;
+    border: solid  rgb(165, 165, 165) 1px;
+    border-radius: 1rem ;
+    margin: 0;
+ }
+ #footer {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    bottom: -300%;
+    
+  }
+
+ .carousel-control-next {
+    padding-left: 5rem !important;
+ }
+ .carousel-control-prev{
+    padding-right: 5rem !important;
+ }
+ #destacados {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: static;
+    top: 152%;
+
+ }
+
+#hl{
+    top: 200vh;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../imgs/background2.jpg);
+}
+
+.show{
+    opacity: 1;
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s; 
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+section{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
